@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d134d2-6570-49b6-9efe-75a9751d0814" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StoreActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StoreActor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StoreMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StoreMsg.java" afterDir="false" />
     </list>
@@ -51,8 +53,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GetMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="e#80#81#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/StoreMsg.java" />
         <option value="$PROJECT_DIR$/src/main/java/StoreActor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GetMsg.java" />
       </list>
     </option>
   </component>
@@ -191,6 +200,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
@@ -280,8 +290,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
