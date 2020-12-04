@@ -10,6 +10,15 @@ public class StoreActor extends AbstractActor {
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
-                            .match()
+                            .match(StoreMsg.class, msg -> {
+                                if (!store.containsKey(msg.getPackageID())) {
+                                    store.put(msg.getPackageID(), msg.getTests());
+                                } else {
+                                    ArrayList<Test> result = store.get(msg.getPackageID());
+                                    result.addAll(msg.getTests());
+                                    store.replace(msg.getPackageID(), result);
+                                }
+
+                            })
     }
 }
