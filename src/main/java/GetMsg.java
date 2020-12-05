@@ -1,8 +1,8 @@
 public class GetMsg {
     private int packageID;
 
-    public GetMsg(int id) {
-        this.packageID = id;
+    public GetMsg(int packageID) {
+        this.packageID = packageID;
     }
 
     public int getPackageID() {
