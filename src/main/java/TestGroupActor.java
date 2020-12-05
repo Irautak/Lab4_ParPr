@@ -8,6 +8,12 @@ public class TestGroupActor extends AbstractActor {
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
-                            .match()
+                            .match(TestGroupMsg.class, msg -> {
+                                for (Test test : msg.getTests()) {
+                                    routerActor.tell(new TestMsg(msg.getPackageID(), msg.getJsScript(),
+                                                msg.getFunctionName(), test), self());
+                                }
+                            })
+                            .build();
     }
 }
